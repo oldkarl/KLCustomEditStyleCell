@@ -1,0 +1,6 @@
+framework module KLCustomCell {
+  umbrella header "KLCustomCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

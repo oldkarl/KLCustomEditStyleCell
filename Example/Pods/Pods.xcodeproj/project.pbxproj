@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0587F5C8E054F1162EFC0457D7D93B03 /* KLCustomEditStyleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92425034823FC33D57C02D22DE4B6210 /* KLCustomEditStyleCell.m */; };
+		154D7DCF414D2CBA76373BC93338F685 /* KLCustomCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D963CC9A7A45D029144BF86731D9547D /* KLCustomCell-dummy.m */; };
+		638E219B7E15030A5E83873AABE8D1A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7E43B294219F20A433122376666B1D84 /* Pods-KLCustomCell_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2323DFD1070477BA07E3C293F8585499 /* Pods-KLCustomCell_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DAAB21FACA5578C7BC07CEFAAC65C29 /* KLCustomCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7373436B9E4DE54D1E6F38C8CCE81C /* KLCustomCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		974D3473CF10B52BADD5DFDB5ACEE89F /* KLCustomEditStyleCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 54AA219AC99328A9C6B52E22ACE55D63 /* KLCustomEditStyleCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B216968B08ADC8D8A1D24041D481DB6F /* Pods-KLCustomCell_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BED9A5C38D657798C1CAEFA98ECFB71E /* Pods-KLCustomCell_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBC5CC0A42196D1E7A8F7992E96CBC8A /* Pods-KLCustomCell_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 840289AA6937F88A114C7E316F1A62EE /* Pods-KLCustomCell_Example-dummy.m */; };
+		E03BB3C645E3639D500FAF98BFA80019 /* Pods-KLCustomCell_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA48AAFC54E83AAC6894620AB5A5361 /* Pods-KLCustomCell_Tests-dummy.m */; };
+		E9F3295572C575E20C2353BCA716B721 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F9BAF55BCE162A2F23BDA04831733A91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43F3A1FBF1F16144B7CDF400C3CC335C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FE1625C218B50D77EBEC3A67BFF0E98;
+			remoteInfo = KLCustomCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B95E43671FFF17EEFEB9CB58C04DD1 /* Pods-KLCustomCell_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KLCustomCell_Tests-resources.sh"; sourceTree = "<group>"; };
+		0CFB98928EE3A13B9B4FE046F00349E6 /* Pods-KLCustomCell_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KLCustomCell_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0ECA55EA0361F60EBC79F455D9BE69E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210FD19B6054E6E136BBF1102DAC9F1E /* Pods-KLCustomCell_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KLCustomCell_Example.modulemap"; sourceTree = "<group>"; };
+		2323DFD1070477BA07E3C293F8585499 /* Pods-KLCustomCell_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KLCustomCell_Tests-umbrella.h"; sourceTree = "<group>"; };
+		24310204DC3EE81E3300B2F0F6762E87 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27039B0B14CC11F6666C61B0D8EB5413 /* KLCustomCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLCustomCell-prefix.pch"; sourceTree = "<group>"; };
+		2831AA87C418E6C197A4F39EB34E720D /* Pods-KLCustomCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLCustomCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2D0F7CF0DC49FF5448B4202E7E6FA04B /* Pods-KLCustomCell_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KLCustomCell_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F7373436B9E4DE54D1E6F38C8CCE81C /* KLCustomCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KLCustomCell-umbrella.h"; sourceTree = "<group>"; };
+		54AA219AC99328A9C6B52E22ACE55D63 /* KLCustomEditStyleCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KLCustomEditStyleCell.h; sourceTree = "<group>"; };
+		5FC5D7AF9E53D9632FCA376CEDFC0C29 /* Pods-KLCustomCell_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLCustomCell_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7398EE482C0439A8B777CDAEDF98B286 /* KLCustomCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KLCustomCell.xcconfig; sourceTree = "<group>"; };
+		75A0BA4F9E0B4917EBA13EF7AAEF42B1 /* Pods_KLCustomCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KLCustomCell_Example.framework; path = "Pods-KLCustomCell_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0B8E9956FF7926FB29680D6FFE41C4 /* Pods-KLCustomCell_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KLCustomCell_Example-resources.sh"; sourceTree = "<group>"; };
+		82620A4528B805119C3855004670FF96 /* Pods_KLCustomCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KLCustomCell_Tests.framework; path = "Pods-KLCustomCell_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		840289AA6937F88A114C7E316F1A62EE /* Pods-KLCustomCell_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KLCustomCell_Example-dummy.m"; sourceTree = "<group>"; };
+		8B14443994E29BFD1AD97FF64E21685E /* KLCustomCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KLCustomCell.framework; path = KLCustomCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B17AB4DC6330CBD0DEEA5E7A36ECA16 /* Pods-KLCustomCell_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLCustomCell_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DE2D8DAE3164FFA985EBF2937EDC5FA /* KLCustomCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KLCustomCell.modulemap; sourceTree = "<group>"; };
+		92425034823FC33D57C02D22DE4B6210 /* KLCustomEditStyleCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KLCustomEditStyleCell.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0878FB4CFAEC9D7CB11F0EA91414B8C /* Pods-KLCustomCell_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLCustomCell_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B9F98330E68F2FE57460E9DF5FC289AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED9A5C38D657798C1CAEFA98ECFB71E /* Pods-KLCustomCell_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KLCustomCell_Example-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D339BEED5859EBFA3533BAD4A82FE540 /* Pods-KLCustomCell_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KLCustomCell_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D63D5D3DF25041A20481A3BBD82BBEF4 /* Pods-KLCustomCell_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KLCustomCell_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D963CC9A7A45D029144BF86731D9547D /* KLCustomCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KLCustomCell-dummy.m"; sourceTree = "<group>"; };
+		DFA48AAFC54E83AAC6894620AB5A5361 /* Pods-KLCustomCell_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KLCustomCell_Tests-dummy.m"; sourceTree = "<group>"; };
+		E41BB356530C6D3A58F0EA03B8FF1E0C /* Pods-KLCustomCell_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KLCustomCell_Tests.modulemap"; sourceTree = "<group>"; };
+		EF50B021DACC80B3C2397AAA7B5E2D7F /* Pods-KLCustomCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KLCustomCell_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F17CE5516BAAE8E7CC9062761AF9D05C /* Pods-KLCustomCell_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KLCustomCell_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F46531A54CA40A5D1B489801DF8B252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638E219B7E15030A5E83873AABE8D1A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660D08F8AB49E25DA903BDBDAB21A9F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F3295572C575E20C2353BCA716B721 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A30AEA9E08FCEBC7519C0F129B27C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BAF55BCE162A2F23BDA04831733A91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0229CA9D3FF54980803F5BADAE717C83 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3F98ECF3497CD9D15C473A5A4033A /* Pods-KLCustomCell_Example */,
+				2795F2121E02937BEBE74C6AB5292880 /* Pods-KLCustomCell_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		08399CFEA77FAA1A7A58A2B88ED30EAD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24310204DC3EE81E3300B2F0F6762E87 /* Info.plist */,
+				8DE2D8DAE3164FFA985EBF2937EDC5FA /* KLCustomCell.modulemap */,
+				7398EE482C0439A8B777CDAEDF98B286 /* KLCustomCell.xcconfig */,
+				D963CC9A7A45D029144BF86731D9547D /* KLCustomCell-dummy.m */,
+				27039B0B14CC11F6666C61B0D8EB5413 /* KLCustomCell-prefix.pch */,
+				2F7373436B9E4DE54D1E6F38C8CCE81C /* KLCustomCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KLCustomCell";
+			sourceTree = "<group>";
+		};
+		2795F2121E02937BEBE74C6AB5292880 /* Pods-KLCustomCell_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B9F98330E68F2FE57460E9DF5FC289AD /* Info.plist */,
+				E41BB356530C6D3A58F0EA03B8FF1E0C /* Pods-KLCustomCell_Tests.modulemap */,
+				2D0F7CF0DC49FF5448B4202E7E6FA04B /* Pods-KLCustomCell_Tests-acknowledgements.markdown */,
+				F17CE5516BAAE8E7CC9062761AF9D05C /* Pods-KLCustomCell_Tests-acknowledgements.plist */,
+				DFA48AAFC54E83AAC6894620AB5A5361 /* Pods-KLCustomCell_Tests-dummy.m */,
+				0CFB98928EE3A13B9B4FE046F00349E6 /* Pods-KLCustomCell_Tests-frameworks.sh */,
+				05B95E43671FFF17EEFEB9CB58C04DD1 /* Pods-KLCustomCell_Tests-resources.sh */,
+				2323DFD1070477BA07E3C293F8585499 /* Pods-KLCustomCell_Tests-umbrella.h */,
+				5FC5D7AF9E53D9632FCA376CEDFC0C29 /* Pods-KLCustomCell_Tests.debug.xcconfig */,
+				B0878FB4CFAEC9D7CB11F0EA91414B8C /* Pods-KLCustomCell_Tests.release.xcconfig */,
+			);
+			name = "Pods-KLCustomCell_Tests";
+			path = "Target Support Files/Pods-KLCustomCell_Tests";
+			sourceTree = "<group>";
+		};
+		6CAED34BA5EE4D7EDA695C0444A74144 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54AA219AC99328A9C6B52E22ACE55D63 /* KLCustomEditStyleCell.h */,
+				92425034823FC33D57C02D22DE4B6210 /* KLCustomEditStyleCell.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CB246952DD806D6799A286702D37984F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AF1163487548A3EEF93EF63CB7BC4C1B /* Products */,
+				0229CA9D3FF54980803F5BADAE717C83 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84612F51DDE45DA49007049351030E17 /* KLCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				C1C36D643F588316CAB203B9F4ACFEED /* KLCustomCell */,
+				08399CFEA77FAA1A7A58A2B88ED30EAD /* Support Files */,
+			);
+			name = KLCustomCell;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A1E3F98ECF3497CD9D15C473A5A4033A /* Pods-KLCustomCell_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0ECA55EA0361F60EBC79F455D9BE69E9 /* Info.plist */,
+				210FD19B6054E6E136BBF1102DAC9F1E /* Pods-KLCustomCell_Example.modulemap */,
+				D339BEED5859EBFA3533BAD4A82FE540 /* Pods-KLCustomCell_Example-acknowledgements.markdown */,
+				8B17AB4DC6330CBD0DEEA5E7A36ECA16 /* Pods-KLCustomCell_Example-acknowledgements.plist */,
+				840289AA6937F88A114C7E316F1A62EE /* Pods-KLCustomCell_Example-dummy.m */,
+				D63D5D3DF25041A20481A3BBD82BBEF4 /* Pods-KLCustomCell_Example-frameworks.sh */,
+				7A0B8E9956FF7926FB29680D6FFE41C4 /* Pods-KLCustomCell_Example-resources.sh */,
+				BED9A5C38D657798C1CAEFA98ECFB71E /* Pods-KLCustomCell_Example-umbrella.h */,
+				2831AA87C418E6C197A4F39EB34E720D /* Pods-KLCustomCell_Example.debug.xcconfig */,
+				EF50B021DACC80B3C2397AAA7B5E2D7F /* Pods-KLCustomCell_Example.release.xcconfig */,
+			);
+			name = "Pods-KLCustomCell_Example";
+			path = "Target Support Files/Pods-KLCustomCell_Example";
+			sourceTree = "<group>";
+		};
+		AF1163487548A3EEF93EF63CB7BC4C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B14443994E29BFD1AD97FF64E21685E /* KLCustomCell.framework */,
+				75A0BA4F9E0B4917EBA13EF7AAEF42B1 /* Pods_KLCustomCell_Example.framework */,
+				82620A4528B805119C3855004670FF96 /* Pods_KLCustomCell_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1C36D643F588316CAB203B9F4ACFEED /* KLCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				6CAED34BA5EE4D7EDA695C0444A74144 /* Classes */,
+			);
+			name = KLCustomCell;
+			path = KLCustomCell;
+			sourceTree = "<group>";
+		};
+		CB246952DD806D6799A286702D37984F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84612F51DDE45DA49007049351030E17 /* KLCustomCell */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2861ED8544F28901DF7F467C598C2E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B216968B08ADC8D8A1D24041D481DB6F /* Pods-KLCustomCell_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24DCAC5B2CC38436E9C95575BC37708 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAAB21FACA5578C7BC07CEFAAC65C29 /* KLCustomCell-umbrella.h in Headers */,
+				974D3473CF10B52BADD5DFDB5ACEE89F /* KLCustomEditStyleCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC64A1DE649D66CB35BC863D4BCDD7BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E43B294219F20A433122376666B1D84 /* Pods-KLCustomCell_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C7FAE94D0321064DA6231FD22E8CE65 /* Pods-KLCustomCell_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B06F949B74EA0C7F857345B3BED85F4 /* Build configuration list for PBXNativeTarget "Pods-KLCustomCell_Tests" */;
+			buildPhases = (
+				1F886B84B9BE05BF63DCF9D22301EFD4 /* Sources */,
+				660D08F8AB49E25DA903BDBDAB21A9F0 /* Frameworks */,
+				FC64A1DE649D66CB35BC863D4BCDD7BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KLCustomCell_Tests";
+			productName = "Pods-KLCustomCell_Tests";
+			productReference = 82620A4528B805119C3855004670FF96 /* Pods_KLCustomCell_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7FE1625C218B50D77EBEC3A67BFF0E98 /* KLCustomCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38998223179E295D66CD38A4B43AB45F /* Build configuration list for PBXNativeTarget "KLCustomCell" */;
+			buildPhases = (
+				41303747E9D1554B4D072DC030C5206D /* Sources */,
+				B8A30AEA9E08FCEBC7519C0F129B27C0 /* Frameworks */,
+				E24DCAC5B2CC38436E9C95575BC37708 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLCustomCell;
+			productName = KLCustomCell;
+			productReference = 8B14443994E29BFD1AD97FF64E21685E /* KLCustomCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC8C88749A9ADC59AFED07DD882CEFD0 /* Pods-KLCustomCell_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FC9D4AE11F2A0B37DB7FE4241EB239 /* Build configuration list for PBXNativeTarget "Pods-KLCustomCell_Example" */;
+			buildPhases = (
+				BF0F52373F74BDD4E6782CA71F8D514F /* Sources */,
+				5F46531A54CA40A5D1B489801DF8B252 /* Frameworks */,
+				D2861ED8544F28901DF7F467C598C2E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD3D8C880F6A8B83E5B37428C6AE6EF9 /* PBXTargetDependency */,
+			);
+			name = "Pods-KLCustomCell_Example";
+			productName = "Pods-KLCustomCell_Example";
+			productReference = 75A0BA4F9E0B4917EBA13EF7AAEF42B1 /* Pods_KLCustomCell_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AF1163487548A3EEF93EF63CB7BC4C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FE1625C218B50D77EBEC3A67BFF0E98 /* KLCustomCell */,
+				FC8C88749A9ADC59AFED07DD882CEFD0 /* Pods-KLCustomCell_Example */,
+				3C7FAE94D0321064DA6231FD22E8CE65 /* Pods-KLCustomCell_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F886B84B9BE05BF63DCF9D22301EFD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E03BB3C645E3639D500FAF98BFA80019 /* Pods-KLCustomCell_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41303747E9D1554B4D072DC030C5206D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				154D7DCF414D2CBA76373BC93338F685 /* KLCustomCell-dummy.m in Sources */,
+				0587F5C8E054F1162EFC0457D7D93B03 /* KLCustomEditStyleCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF0F52373F74BDD4E6782CA71F8D514F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC5CC0A42196D1E7A8F7992E96CBC8A /* Pods-KLCustomCell_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD3D8C880F6A8B83E5B37428C6AE6EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KLCustomCell;
+			target = 7FE1625C218B50D77EBEC3A67BFF0E98 /* KLCustomCell */;
+			targetProxy = 43F3A1FBF1F16144B7CDF400C3CC335C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E5021CD7E2E6118C283D9A7E86FC4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF50B021DACC80B3C2397AAA7B5E2D7F /* Pods-KLCustomCell_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KLCustomCell_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KLCustomCell_Example/Pods-KLCustomCell_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KLCustomCell_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8BDA0B696F8DF80B590D5F5C417E633B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0878FB4CFAEC9D7CB11F0EA91414B8C /* Pods-KLCustomCell_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KLCustomCell_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KLCustomCell_Tests/Pods-KLCustomCell_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KLCustomCell_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F3D8BB5049B5DD7E71C920BE056D2CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2831AA87C418E6C197A4F39EB34E720D /* Pods-KLCustomCell_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KLCustomCell_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KLCustomCell_Example/Pods-KLCustomCell_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KLCustomCell_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94015C0A8031AE7E49871CB5944C96C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7398EE482C0439A8B777CDAEDF98B286 /* KLCustomCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KLCustomCell/KLCustomCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KLCustomCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KLCustomCell/KLCustomCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KLCustomCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DFF9AB1B02348B68DC5C8B487B125D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC5D7AF9E53D9632FCA376CEDFC0C29 /* Pods-KLCustomCell_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KLCustomCell_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KLCustomCell_Tests/Pods-KLCustomCell_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KLCustomCell_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9D25461CC7CB59A3590711CAD5313ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7398EE482C0439A8B777CDAEDF98B286 /* KLCustomCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KLCustomCell/KLCustomCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KLCustomCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KLCustomCell/KLCustomCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KLCustomCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11FC9D4AE11F2A0B37DB7FE4241EB239 /* Build configuration list for PBXNativeTarget "Pods-KLCustomCell_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3D8BB5049B5DD7E71C920BE056D2CB /* Debug */,
+				4E5021CD7E2E6118C283D9A7E86FC4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38998223179E295D66CD38A4B43AB45F /* Build configuration list for PBXNativeTarget "KLCustomCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94015C0A8031AE7E49871CB5944C96C3 /* Debug */,
+				E9D25461CC7CB59A3590711CAD5313ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B06F949B74EA0C7F857345B3BED85F4 /* Build configuration list for PBXNativeTarget "Pods-KLCustomCell_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF9AB1B02348B68DC5C8B487B125D88 /* Debug */,
+				8BDA0B696F8DF80B590D5F5C417E633B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

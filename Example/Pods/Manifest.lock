@@ -1,0 +1,16 @@
+PODS:
+  - KLCustomCell (0.1.0)
+
+DEPENDENCIES:
+  - KLCustomCell (from `../`)
+
+EXTERNAL SOURCES:
+  KLCustomCell:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KLCustomCell: c7c573a8feed5ab1e427c46eae6abf4aa156fd7b
+
+PODFILE CHECKSUM: f1fdd3d1a978415501d030787876b43fd8059d0f
+
+COCOAPODS: 1.1.1

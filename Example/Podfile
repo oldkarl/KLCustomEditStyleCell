@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KLCustomCell_Example' do
+  pod 'KLCustomCell', :path => '../'
+
+  target 'KLCustomCell_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
